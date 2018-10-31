@@ -1,6 +1,6 @@
 /* Jamie sucks at color schemes please fix!!!!! */
 .main{
-
+    text-align: center;
 
 }
 /* Style all paragraphs under main class, with borders, three paragraph boxes per-row*/
@@ -14,13 +14,20 @@
     height: 400px;
     
 }
+.main h1{
+    font-family:"Times New Roman";
+    font-weight:bold;
+    color: rgb(255,255,255);
+    word-spacing: 300px;
+
+}
  /*different paragraph box styles*/   
 .p1{
-    background-color: rgb(31, 31, 20);
+    background-color: rgb(49, 49, 51);
     border: 1px solid rgb(102, 0, 0);
     border-radius: 15px;
     padding: 20 px;
-    color: rgb(230, 230, 230);
+    color: rgb(181, 181, 181);
 }
 .p2{
     background-color: rgb(230, 230, 230);
