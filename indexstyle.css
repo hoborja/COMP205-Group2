@@ -1,4 +1,54 @@
-/*align all body content to centre*/
-body {
+/* Jamie sucks at color schemes please fix!!!!! */
+.main{
+
+
+}
+/* Style all paragraphs under main class, with borders, three paragraph boxes per-row*/
+.main p{
     text-align: center;
+    font-family:"Lucida Calligraphy";
+    font-weight: bold;
+    float: left;
+    margin: 1%; 
+    width: 30%;
+    height: 500px;
+    
+}
+ /*different paragraph box styles*/   
+.p1{
+    background-color: rgb(31, 31, 20);
+    border: 5px solid rgb(51, 51, 51);
+    border-radius: 15px;
+    padding: 20 px;
+    color: rgb(230, 230, 230);
+}
+.p2{
+    background-color: rgb(51, 0, 0);
+    border: 5px solid rgb(31, 31, 20);
+    border-radius: 15px;
+    padding: 20 px;
+    color: rgb(230, 230, 230);
+}
+
+
+/*body force site to fit any size set background color*/
+body {
+    height:100%;
+    width:100%;
+    background-color: rgb(38, 0, 77);
+}
+/* Css for bav bar*/
+#topnav {
+    height: 5%; width:97%;
+    text-align:center;
+    border: 5px solid rgb(0,0,0);
+    border-radius: 25px;  
+    padding: 15px;
+    background-color: rgb(51, 51, 51);
+    font-family: "cooper";
+    font-style: oblique;
+    word-spacing: 150px;
+    font-size: 2.5em;
+    color:  rgb(255,255,255);
+    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
 }
