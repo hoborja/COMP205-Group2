@@ -15,6 +15,7 @@
     
 }
 .main h1{
+    padding-top: 100px;/*added so nav-bar won't hide headers*/
     font-family:"Times New Roman";
     font-weight:bold;
     color: rgb(255,255,255);
@@ -40,14 +41,16 @@
 
 /*body force site to fit any size set background color*/
 body {
-    height:100%;
+    /*height:100%;*/
     width:100%;
+    height: 2000px;/*added just to test scrolling elements*/
     background-color: black;
 }
 /* Css for bav bar*/
 #topnav {
+    position: fixed;
     height: 5%; width:97%;
-    text-align:left;
+    text-align:center;
     border: 1px solid rgb(102, 0, 0);/*rgb(0,0,0);*/
     border-radius: 5px; 
     padding: 15px;
