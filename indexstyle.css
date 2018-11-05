@@ -1,7 +1,6 @@
 /* Jamie sucks at color schemes please fix!!!!! */
 .main{
     text-align: center;
-
 }
 /* Style all paragraphs under main class, with borders, three paragraph boxes per-row*/
 .main p{
@@ -13,6 +12,10 @@
     width: 30%;
     height: 400px;
     
+}
+.main img {
+    padding-top: 3%;
+    width: 100%;
 }
 .main h1{
     padding-top: 100px;/*added so nav-bar won't hide headers*/
@@ -60,11 +63,11 @@ body {
     font-size: 125%; /*2.5em;*/
     color:  rgb(255,255,255);
     text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
-     
+    background-image: url('images/checkeredbkg.jpg');
     
 }
 
 #topnav a{
-    color:white;
+    color:orange;
     text-decoration: none;
 }
