@@ -1,55 +1,14 @@
-/* Jamie sucks at color schemes please fix!!!!! */
-.main{
-    text-align: center;
-}
-/* Style all paragraphs under main class, with borders, three paragraph boxes per-row*/
-.main p{
-    text-align: center;
-    font-family:"Lucida Calligraphy";
-    font-weight: bold;
-    float: left;
-    margin: 1%; 
-    width: 30%;
-    height: 400px;
-    
-}
-.main img {
-    padding-top: 3%;
-    width: 100%;
-}
-.main h1{
-    padding-top: 100px;/*added so nav-bar won't hide headers*/
-    font-family:"Times New Roman";
-    font-weight:bold;
-    color: rgb(255,255,255);
-    word-spacing: 300px;
+/*#############################
+##     Index style sheet     ##
+#############################*/
 
-}
- /*different paragraph box styles*/   
-.p1{
-    background-color: rgb(49, 49, 51);
-    border: 1px solid rgb(102, 0, 0);
-    border-radius: 15px;
-    padding: 20 px;
-    color: rgb(181, 181, 181);
-}
-.p2{
-    background-color: rgb(230, 230, 230);
-    border: 1px solid rgb(102, 0, 0);
-    border-radius: 15px;
-    padding: 20 px;
-    color: rgb(31, 31, 20);
-}
-
-
-/*body force site to fit any size set background color*/
+/*force site to fit any size*/
 body {
-    /*height:100%;*/
     width:100%;
-    height: 2000px;/*added just to test scrolling elements*/
+    height: 2000px;
     background-color: black;
 }
-/* Css for bav bar*/
+/*nav bar style*/
 #topnav {
     position: fixed;
     height: 5%; width:97%;
@@ -66,8 +25,75 @@ body {
     background-image: url('images/checkeredbkg.jpg');
     
 }
-
 #topnav a{
     color:orange;
     text-decoration: none;
+}
+
+/*header style*/
+.header h1 {
+    text-align: center;
+    padding-top: 150px;/*added so nav-bar won't hide headers*/
+    font-family:"Times New Roman";
+    font-weight:bold;
+    color: rgb(255,255,255);
+    word-spacing: 300px;
+}
+.header a {
+    text-decoration: none; 
+    background-color: rgb(49, 49, 51);
+    padding: 5px;
+    border: 1px solid red;
+    border-radius: 15px;
+}
+.header a:visited { /*stop the link from changing color when clicked*/
+    color: white;
+}
+
+/*content style*/
+.content {
+    text-align: center;
+}
+.content h2 {
+    padding-top: 100px;
+    color: orangered;
+}
+.content img {
+    padding-top: 3%;
+    width: 100%;
+}
+.content div {
+    width: 30%;
+    height: 400px;
+    text-align: center;
+    font-family:"Lucida Calligraphy";
+    font-weight: bold;
+    border: 1px solid rgb(102, 0, 0);
+    border-radius: 15px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+.c_news, .c_events {
+    background-color: rgb(49, 49, 51);
+    color: rgb(181, 181, 181);
+}
+.c_patch-notes {
+    background-color: rgb(230, 230, 230);
+    color: rgb(31, 31, 20);
+}
+
+/*go to top button*/
+#topbtn {
+    display: none; /* hide button by default */
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    border: none; 
+    outline: none; 
+    background-color: red; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
 }
