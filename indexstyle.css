@@ -5,7 +5,6 @@
 /*force site to fit any size*/
 body {
     width:100%;
-    height: 2000px;
     background-color: black;
 }
 /*nav bar style*/
@@ -80,6 +79,34 @@ body {
 .c_patch-notes {
     background-color: rgb(230, 230, 230);
     color: rgb(31, 31, 20);
+}
+
+.downloadbox{
+    text-align: center;
+}
+
+.downloadbox p{
+    margin-top:100px;
+    width: 15%;
+    border: 1px solid white;
+    border-radius: 5px; 
+    padding: 5px;
+    background-color: white;
+    display: inline-block;
+    font-weight: bolder;
+    font-family:"Times New Roman";
+    font-size: 250%;
+    text-align: center;
+    text-transform: capitalize;
+    color:orange;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    background-image: url('images/checkeredbkg.jpg');
+
+}
+
+.downloadbox a{
+    color: inherit;
+    text-decoration: none;
 }
 
 /*go to top button*/
