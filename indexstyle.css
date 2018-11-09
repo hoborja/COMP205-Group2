@@ -1,5 +1,5 @@
 /*#############################
-##     Index style sheet     ##
+##       Miscellaneous       ##
 #############################*/
 
 /*force site to fit any size*/
@@ -28,6 +28,26 @@ body {
     color:orange;
     text-decoration: none;
 }
+
+/*go to top button*/
+#topbtn {
+    display: none; /* hide button by default */
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    border: none; 
+    outline: none; 
+    background-color: red; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+}
+
+/*#############################
+##      Index page style     ##
+#############################*/
 
 /*header style*/
 .header h1 {
@@ -81,6 +101,10 @@ body {
     color: rgb(31, 31, 20);
 }
 
+/*################################
+##      Download page style     ##
+################################*/
+
 .downloadbox{
     text-align: center;
 }
@@ -109,18 +133,6 @@ body {
     text-decoration: none;
 }
 
-/*go to top button*/
-#topbtn {
-    display: none; /* hide button by default */
-    position: fixed; 
-    bottom: 20px; 
-    right: 30px; 
-    border: none; 
-    outline: none; 
-    background-color: red; 
-    color: white; 
-    cursor: pointer; 
-    padding: 15px; 
-    border-radius: 10px; 
-    font-size: 18px; 
-}
+/*##############################
+##      About page style      ##
+##############################*/
