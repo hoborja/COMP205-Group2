@@ -7,6 +7,7 @@ body {
     width:100%;
     background-color: black;
 }
+
 /*nav bar style*/
 #topnav {
     position: fixed;
@@ -45,9 +46,9 @@ body {
     font-size: 18px; 
 }
 
-/*#############################
-##      Index page style     ##
-#############################*/
+/*##############################
+##      Index page style      ##
+##############################*/
 
 /*header style*/
 .header h1 {
@@ -136,3 +137,4 @@ body {
 /*##############################
 ##      About page style      ##
 ##############################*/
+

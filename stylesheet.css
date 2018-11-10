@@ -1,0 +1,114 @@
+/*force fit on any screen*/
+body {
+    /*background-image: url("tiremarksbkg.jpg");*/
+    background-color: black;
+    width: 100%;
+    margin: 0px; 
+    margin-bottom: 2%;
+}
+/*add 25% margin on both sides*/
+section {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+/*make all divs fit 100%, centre aligned*/
+div {
+    width: 100%;
+    text-align: center;
+}
+/*go to top button*/
+#topbtn {
+    display: none; /* hide button by default */
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    border: none; 
+    outline: none; 
+    background-color: red; 
+    color: white; 
+    cursor: pointer; 
+    padding: 15px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+}
+/*top navigation style*/
+.nav {
+    height: 25px;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+.nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+    padding-top: 0px;
+    margin: 0px;
+}
+.nav li {
+    color: orange;
+    float: left;
+    padding-top: 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: relative;
+}
+.nav a {
+    text-decoration: none;
+}
+.nav a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+/*header styles*/
+.header {
+    height: 100px;
+    background-color: darkblue;
+    opacity: 0.2;
+}
+/*page navigation style*/
+.pagenav {
+    height: 30px;
+    background-image: url("images/checkeredbkg.jpg");
+    padding-top: 0px;
+}
+.pagenav ul {
+    list-style-type: none;
+    padding-left: 5px;
+    padding-top: 5px;
+    margin: 0px;
+}
+.pagenav li {
+    color: orange;
+    float: left;
+    padding-right: 20px;
+    position: relative;
+}
+.pagenav a {
+    text-decoration: none;
+}
+.pagenav a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+/*content style*/
+.content {
+    height: 100%;
+    background-color: rgb(37, 37, 37);
+    border: 0px solid red;
+    padding-bottom: 50px;
+}
+.content h1 {
+    margin: 0px;
+    padding-top: 20px;
+    color: red;
+}
+.news, .patch-notes, .events {
+    height:630px; 
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 95%; 
+    margin: auto;
+}
+.news img {
+    width: 100%;
+    height: 75%;
+}
