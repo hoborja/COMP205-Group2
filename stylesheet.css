@@ -22,7 +22,7 @@ div {
     position: fixed; 
     bottom: 20px; 
     right: 30px; 
-    border: none; 
+    border: none;
     outline: none; 
     background-color: red; 
     color: white; 
@@ -103,17 +103,61 @@ div {
     color: red;
 }
 .news, .patch-notes, .events {
-    height:630px; 
+    /*height:630px; */
     background-color: rgba(0, 0, 0, 0.5);
     width: 95%; 
     margin: auto;
 }
+/*for some reason i cant figure out how to put them all on the same line*/
+.news h1 {
+    color: white;
+    text-decoration: underline;
+    text-decoration: bold;
+}
+.patch-notes h1 {
+    color: white;
+    text-decoration: underline;
+    text-decoration: bold;
+}
+.events h1 {
+    color: white;
+    text-decoration: underline;
+    text-decoration: bold;
+}
 .news img {
     width: 100%;
+    height: 75%;
+}
+.patch-notes img {
+    width: 100%;
+    height: 75%;
+}
+.events img {
+    width: 100%;
+    height: 75%;
+}
+.slides {
+    display: none;
     height: 75%;
 }
 .news p {
     color: orange;
     padding-left: 15px;
     padding-right: 15px;
+}
+.patch-notes p {
+    color: orange;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.events p {
+    color: orange;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.leftarrow {
+    float: left;
+}
+.rightarrow {
+    float: right;
 }
