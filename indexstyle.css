@@ -9,7 +9,7 @@ body {
 }
 /*nav bar style*/
 #topnav {
-    position: fixed;
+   /* position: fixed;  just testing without*/
     height: 5%; width:97%;
     text-align:left;
     border: 1px solid rgb(102, 0, 0);/*rgb(0,0,0);*/
@@ -104,13 +104,48 @@ body {
 /*################################
 ##      Download page style     ##
 ################################*/
+.download{
+    width:100%;
+    color:orangered;
+}
+.download h1{
+    text-align: left;
+}
+.download p, ul{
+    float: left;
+    width: 30%;
+    height: 200px;
+    text-align: left;
+    font-family:"Times New Roman";
+    font-weight: bold;
+    font-size:1.5vw;
+    border: 1px solid orangered;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    margin: auto;
+    background-color:  rgb(31, 31, 20);
+    color:orange;
 
+}
+
+/*cant get image to cover whole screen
+.downloadimg{
+    height: 200px;
+    width: 100%;
+    background-image: url('images/gametitle.png');
+    opacity: 0.2;
+    background-size: 100% 100%;
+    
+}*/
 .downloadbox{
     text-align: center;
 }
 
-.downloadbox p{
-    margin-top:100px;
+.downloadbox button{
+    float:left;
+    clear:both;
+    opacity:1;
+    margin-top:50px;
     width: 15%;
     border: 1px solid white;
     border-radius: 5px; 
