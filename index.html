@@ -4,12 +4,12 @@
         <title>Car Rampage</title>
         <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
-    <body>
+    <body onload="IndexLoad()">
         <!--main-->
         <section>
             <div class="nav">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li id="home"><a href="index.html">Home</a></li>
                     <li><a href="news.html">News</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="cars.html">Cars</a></li>
@@ -58,9 +58,10 @@
         <div class="footer">
             <!--button to go to top of page-->
             <button onclick="goToTop()" id="topbtn" title="Go to top">Top</button>
+            IndexLoad();
             <script src="scripts.js">
-                //external linked .js file
-                //handles the top button functions
+                //external .js file
+                //handles button functions
             </script>
         </div>
     </body>

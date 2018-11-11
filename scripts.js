@@ -53,3 +53,7 @@ function NewsText() {
         document.getElementById("newstext").innerHTML = "this is the text that goes along with the tire marks image. change this image with relevant news, probably have atleast 3 elements to scroll through";
     }
 }
+
+function IndexLoad() {
+    document.getElementById("home").style.borderBottom = "solid yellow;"
+}
