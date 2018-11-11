@@ -10,7 +10,7 @@ function scrollCheck() {
 }
 //tell the page to go back to the top
 function goToTop() {
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    document.documentElement.scrollTop = 0;
 }
 
 var sldindex = 1;
@@ -40,7 +40,7 @@ function ShowSlide (n) {
     //update the text
     NewsText();
 }
-
+//change the news text when scrolling through the slides
 function NewsText() {
     if(sldindex == 1)
     {
@@ -49,11 +49,31 @@ function NewsText() {
     }
     if(sldindex == 2)
     {
-        document.getElementById("newsheader").innerHTML = "Tire Marks image!";
-        document.getElementById("newstext").innerHTML = "this is the text that goes along with the tire marks image. change this image with relevant news, probably have atleast 3 elements to scroll through";
+        document.getElementById("newsheader").innerHTML = "New playable vehicle incoming";
+        document.getElementById("newstext").innerHTML = "We are proud to announce that Osiris Studios has been working on releasing a new playable vehicle. 'Dep' will go live November 2019 along with a new level! Follow us on facebook to keep in the loop.";
+    }
+    if(sldindex == 3)
+    {
+        document.getElementById("newsheader").innerHTML = "Coming soon, Hex-Core!";
+        document.getElementById("newstext").innerHTML = "Inspired by the classic arcade game Arknoid, Hex-Core is a head-to-head winner takes all arcade style game. Featuring an amazing sountrack and acheivements, this game will keep you playing for hours.";
     }
 }
-
+//onload function for each page
 function IndexLoad() {
-    document.getElementById("home").style.borderBottom = "solid yellow;"
+    document.getElementById("homenav").style.borderBottom = "medium solid yellow";
+}
+function MediaLoad() {
+    document.getElementById("medianav").style.borderBottom = "medium solid yellow";
+}
+function AboutLoad() {
+    document.getElementById("aboutnav").style.borderBottom = "medium solid yellow";
+}
+function CarsLoad() {
+    document.getElementById("carsnav").style.borderBottom = "medium solid yellow";
+}
+function DownloadsLoad() {
+    document.getElementById("downloadsnav").style.borderBottom = "medium solid yellow";
+}
+function SupportLoad() {
+    document.getElementById("supportnav").style.borderBottom = "medium solid yellow";
 }

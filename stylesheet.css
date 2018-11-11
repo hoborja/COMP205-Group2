@@ -64,6 +64,7 @@ div {
     height: 100px;
     background-color: darkblue;
     opacity: 0.2;
+    color: red;
 }
 /*page navigation style*/
 .pagenav {
@@ -94,70 +95,104 @@ div {
 .content {
     height: 100%;
     background-color: rgb(37, 37, 37);
-    border: 0px solid red;
     padding-bottom: 50px;
 }
 .content h1 {
+    font-size: 32px;
     margin: 0px;
     padding-top: 20px;
     color: red;
+    text-decoration: bold;
 }
+.content h2 {
+    font-size: 24px;
+    color: white;
+    text-decoration: underline;
+    text-decoration: bold;
+}
+.content p {
+    color: orange;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+}
+.content img {
+    width: 100%;
+    height: 75%;
+}
+/*########################
+##     index styles     ##
+########################*/
 .news, .patch-notes, .events {
     /*height:630px; */
     background-color: rgba(0, 0, 0, 0.5);
     width: 95%; 
     margin: auto;
 }
-/*for some reason i cant figure out how to put them all on the same line*/
-.news h1 {
-    color: white;
-    text-decoration: underline;
-    text-decoration: bold;
-}
-.patch-notes h1 {
-    color: white;
-    text-decoration: underline;
-    text-decoration: bold;
-}
-.events h1 {
-    color: white;
-    text-decoration: underline;
-    text-decoration: bold;
-}
-.news img {
-    width: 100%;
-    height: 75%;
-}
-.patch-notes img {
-    width: 100%;
-    height: 75%;
-}
-.events img {
-    width: 100%;
-    height: 75%;
-}
 .slides {
     display: none;
     height: 75%;
-}
-.news p {
-    color: orange;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.patch-notes p {
-    color: orange;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.events p {
-    color: orange;
-    padding-left: 15px;
-    padding-right: 15px;
 }
 .leftarrow {
     float: left;
 }
 .rightarrow {
     float: right;
+}
+/*##########################
+##      About styles      ##
+##########################*/
+.gameinfo, .devinfo, .sysreq {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 95%; 
+    margin: auto;
+}
+.gameinfo ul {
+    padding-left: 45%;
+    text-align: left;
+    color: red;
+    padding-bottom: 10px;
+}
+.gameinfo li {
+    color: white;
+}
+.sysreq table {
+    width: 100%;
+    border: 1px solid grey;
+}
+.sysreq th {
+    color: red;
+    border: 1px solid grey;
+}
+.sysreq td {
+    color: orange;
+    border: 1px solid grey;
+}
+/*##########################
+##    Downloads styles    ##
+##########################*/
+
+.download{
+    width:100%;
+    color:orangered;
+}/*
+.download h1{
+    text-align: left;
+}*/
+.download ul{
+    /*float: left;
+    width: 30%;
+    height: 200px;*/
+    /*text-align: left;*/
+    width: 95%;
+    list-style-type: none;
+    font-family:"Times New Roman";
+    font-weight: bold;
+    font-size:1.5vw;
+    border: 1px solid orangered;
+    border-radius: 15px;
+    padding-bottom: 30px;
+    margin: auto;
+    background-color:  rgb(31, 31, 20);
+    color:orange;
 }

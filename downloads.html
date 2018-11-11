@@ -2,44 +2,52 @@
 <html>
     <head>
         <title>Downloads</title>
-        <link rel="stylesheet" type="text/css" href="indexstyle.css">
-        <div id="topnav">
-            <nav>
-                <a href="index.html" target="_self">Home</a>
-                <a href="news.html" target="_self">News</a>
-                <a href="about.html" target="_self">About</a>
-                <a href="cars.html" target="_self">Cars</a>
-                <a href="downloads.html" target="_self">Downloads</a>
-                <a href="support.html" target="_self">Support</a>
-                <a href="https://twitter.com/" target="_blank">
-                <img src="images/twitter.png" style="width:25px;height:25px;"/>
-                </a>
-                <a href="https://www.facebook.com/" target="_blank">
-                <img src="images/facebook.png" style="width:25px;height:25px;"/>
-                </a>
-                <a href="https://www.instagram.com/" target="_blank">
-                <img src="images/instagram.png" style="width:25px;height:25px;"/>
-                </a>
-            </nav>
-        </div>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
     </head>
-    <body >
-        <div class="download">
-          <h1>Download Instructions</h1>
-           <ul>
-            <li>Click The Download Button</li>
-            <li>On the top righte click the down arrow</li>
-            <li>Extract Ziped files to your prefered folder</li>
-            <li>Run application</li>
-            <li>Set up Resolution and controls</li>
-            <li>Have fun!</li>
-           </ul>
-        </div>
-        <div class="downloadbox" >
-            <button>
-                <a href="https://drive.google.com/open?id=1Dyalp3KAtIuWRCDtK2QXzcIEv40wsxqL" target="_blank">DOWNLOAD</a>
-            </button>
-        </div>   
+    <body onload="DownloadsLoad()">
+        <!--main-->
+        <section>
+            <div class="nav">
+                <ul>
+                    <li id="homenav"><a href="index.html">Home</a></li>
+                    <li id="aboutnav"><a href="about.html">About</a></li>
+                    <li id="carsnav"><a href="cars.html">Cars</a></li>
+                    <li id="medianav"><a href="media.html">Media</a></li>
+                    <li id="downloadsnav"><a href="downloads.html">Downloads</a></li>
+                    <li id="supportnav"><a href="support.html">Support</a></li>
+                </ul>
+            </div>
+            <div class="header">
+                <!--insert title image-->
+            </div>
+            <div class="content">
+                <div class="download">
+                    <h1>Download Instructions</h1>
+                    <ul>
+                        <li>Click The Download Button</li>
+                        <li>On the top righte click the down arrow</li>
+                        <li>Extract Ziped files to your prefered folder</li>
+                        <li>Run application</li>
+                        <li>Set up Resolution and controls</li>
+                        <li>Have fun!</li>
+                    </ul>
+                </div>
+                <div class="downloadbox" >
+                    <button>
+                        <a href="https://drive.google.com/open?id=1Dyalp3KAtIuWRCDtK2QXzcIEv40wsxqL" target="_blank">DOWNLOAD</a>
+                    </button>
+                </div>
+            </div>
+            <!--footer-->
+            <div class="footer">
+                <!--button to go to top of page-->
+                <button onclick="goToTop()" id="topbtn" title="Go to top">Top</button>
+                <script src="scripts.js">
+                    //external .js file
+                    //handles button functions
+                </script>
+            </div>
+        </section>
     </body>
 </html>
 

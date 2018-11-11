@@ -9,16 +9,16 @@
         <section>
             <div class="nav">
                 <ul>
-                    <li id="home"><a href="index.html">Home</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="cars.html">Cars</a></li>
-                    <li><a href="downloads.html">Downloads</a></li>
-                    <li><a href="support.html">Support</a></li>
+                    <li id="homenav"><a href="index.html">Home</a></li>
+                    <li id="aboutnav"><a href="about.html">About</a></li>
+                    <li id="carsnav"><a href="cars.html">Cars</a></li>
+                    <li id="medianav"><a href="media.html">Media</a></li>
+                    <li id="downloadsnav"><a href="downloads.html">Downloads</a></li>
+                    <li id="supportnav"><a href="support.html">Support</a></li>
                 </ul>
             </div>
             <div class="header">
-                <!--insert title image-->
+                <!--insert title image here-->
             </div>
             <div class="pagenav">
                 <ul>
@@ -35,22 +35,23 @@
                         <button class="leftarrow" onclick="ChangeImage(-1)">&#10094</button>
                         <button class="rightarrow" onclick="ChangeImage(1)">&#10095</button>
                         <img class="slides" src="images/carrampage2.png">
-                        <img class="slides" id="tiremark" src="images/tiremarksbkg.jpg">
+                        <img class="slides" src="images/copcar.jpg">
+                        <img class="slides" src="images/hexcore.jpg">
                     </div>
-                    <h1 id="newsheader">news header</h1>
+                    <h2 id="newsheader">news header</h2>
                     <p id="newstext">news text</p>
                 </div>
                 <h1 id="patch-notes">PATCH-NOTES</h1>
                 <div class="patch-notes">
                     <img src="images/rampage1.jpg">
-                    <h1 id="patchheader">Car Rampage v1.0</h1>
-                    <p id="patchtext">these are the patch notes</p>
+                    <h2 id="patchheader">Car Rampage v1.0</h2>
+                    <p id="patchtext">With the release of Car Rampage, we look forward to adding new content, vehicles and stages. Follow us on Facebook to recieve news on upcoming patches and events</p>
                 </div>
                 <h1 id="events">EVENTS</h1>
                 <div class="events">
-                        <img src="images/rampage2.jpg">
-                        <h1 id="eventheader">Race to the finish event!</h1>
-                        <p id="eventtext">this is the event information</p>
+                    <img src="images/rampage2.jpg">
+                    <h2 id="eventheader">Race to the finish event!</h2>
+                    <p id="eventtext">Think you got what it takes to be the ultimate death racer? Get extra RP this week for competing in solo races.</p>
                 </div>
             </div>
         </section>
@@ -58,7 +59,6 @@
         <div class="footer">
             <!--button to go to top of page-->
             <button onclick="goToTop()" id="topbtn" title="Go to top">Top</button>
-            IndexLoad();
             <script src="scripts.js">
                 //external .js file
                 //handles button functions
