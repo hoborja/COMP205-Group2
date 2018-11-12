@@ -201,6 +201,7 @@ div {
 .download{
     width:100%;
     color:orangered;
+    font-family:"Times New Roman";
 }/*
 .download h1{
     text-align: left;
@@ -212,7 +213,6 @@ div {
     /*text-align: left;*/
     width: 95%;
     list-style-type: none;
-    font-family:"Times New Roman";
     font-weight: bold;
     font-size:1.5vw;
     border: 1px solid orangered;
@@ -221,4 +221,23 @@ div {
     margin: auto;
     background-color:  rgb(31, 31, 20);
     color:orange;
+}
+
+.download button{
+    font-family:"Times New Roman";
+    font-size: 2.0em;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-image: url('images/checkeredbkg.jpg');
+    height: 50px;
+    width:300px;
+    padding: 5px;
+    border: 1px solid orangered;
+    border-radius: 25px;
+    color: orange;
+    
+}
+.download a{
+    text-decoration: none;
+    color:inherit
 }
