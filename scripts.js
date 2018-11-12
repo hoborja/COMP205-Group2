@@ -12,14 +12,14 @@ function scrollCheck() {
 function goToTop() {
     document.documentElement.scrollTop = 0;
 }
-
+//slide stuff
 var sldindex = 1;
 ShowSlide(sldindex);
-
+//set the slide index
 function ChangeImage(n) {
     ShowSlide(sldindex += n);
 }
-
+//display the next slide
 function ShowSlide (n) {
     //get the images for the slide by class name
     var slds = document.getElementsByClassName("slides");
