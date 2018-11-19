@@ -6,6 +6,9 @@ body {
     margin: 0px; 
     margin-bottom: 2%;
 }
+a {
+    text-decoration: none;
+}
 /*add 25% margin on both sides*/
 section {
     margin-left: 25%;
