@@ -77,3 +77,20 @@ function DownloadsLoad() {
 function SupportLoad() {
     document.getElementById("supportnav").style.borderBottom = "medium solid yellow";
 }
+var currentfaq = 0;
+function FaqClick(index) {
+    var fc = document.getElementsByClassName("faq-content");
+    if(index == currentfaq)
+    {
+        fc[index-1].style.display = "none";
+        currentfaq = 0;
+    } 
+    else {
+        for(var i = 0; i < fc.length; i++)
+        {
+            fc[i].style.display = "none";
+        }   
+        fc[index-1].style.display = "inline-block";
+        currentfaq = index;
+    }
+}

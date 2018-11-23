@@ -18,10 +18,61 @@
                 </ul>
             </div>
             <div class="header">
-                <!--insert title image-->
+                <img src="images/gametitle.png">
+            </div>
+            <div class="pagenav">
+                <ul>
+                    
+                </ul>
+                <a class="smlinks" href="https://www.facebook.com" target="_blank"><img src="images/facebook.png"></a>
+                <a class="smlinks" href="https://twitter.com/" target="_blank"><img src="images/twitter.png"></a>
+                <a class="smlinks" href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png"></a>
             </div>
             <div class="content">
-                
+                <h1>FAQ</h1>
+                <div class="faqs">
+                    <ul style="list-style-position: inside;">
+                        <li><a href="javascript:FaqClick(1)">How do I download Car Rampage?</a></li>
+                        <div class="faq-content">
+                            <p style="color: black;">this is some text</p>
+                        </div>
+                        <li><a href="javascript:FaqClick(2)">What are the controls for Car Rampage?</a></li>
+                        <div class="faq-content">
+                            <p style="color: black;">this is some text</p>
+                        </div>
+                        <li><a href="javascript:FaqClick(3)">Is Car Rampage available on Android and IOS?</a></li>
+                        <div class="faq-content">
+                            <p style="color: black;">this is some text</p>
+                        </div>
+                        <li><a href="javascript:FaqClick(4)">Can I purchase in-game content?</a></li>
+                        <div class="faq-content">
+                            <p style="color: black;">this is some text</p>
+                        </div>
+                    </ul>
+                </div>
+                <h1>Support</h1>
+                <div class="general">
+                    <p>Want to give us feedback or report a bug? click the "send email" button to get in touch</p>
+                    <button id="btn">send email</button>
+                </div>
+                <div class="form" id="form">
+                    <div class="form-content">
+                        <span class="close">&times;</span>
+                        
+                        <form style="text-align: left;">
+                            Email Address: <BR> <input type="text" name="email" required>
+                            <br />
+                            Name: <BR> <input type="text" name="name">
+                            <br />
+                            Subject:<BR> <input type="text" name="subject" required>
+                            <br />
+                            Summary:<br>
+                            <textarea style="width: 100%; height: 200px; max-width: 98%;" required></textarea>
+                            <input style="" type="submit" name="send">
+                            <br />
+                        </form>
+                    </div>
+                </div>
             </div>
             <!--footer-->
             <div class="footer">
@@ -30,6 +81,23 @@
                 <script src="scripts.js">
                     //external .js file
                     //handles button functions
+                </script>
+                <script>
+                    var frm = document.getElementById("form");
+                    var btn = document.getElementById("btn");
+                    var xbtn = document.getElementsByClassName("close")[0];
+
+                    btn.onclick = function() {
+                        frm.style.display = "block";
+                    }
+                    xbtn.onclick = function() {
+                        frm.style.display = "none";
+                    }
+                    window.onclick = function(event) {
+                        if(event.target == frm) {
+                            frm.style.display = "none";
+                        }
+                    }
                 </script>
             </div>
         </section>
