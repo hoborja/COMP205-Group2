@@ -57,18 +57,21 @@
                 </div>
                 <div class="form" id="form">
                     <div class="form-content">
-                        <span class="close">&times;</span>
-                        
-                        <form style="text-align: left;">
-                            Email Address: <BR> <input type="text" name="email" required>
+                        <div style="height: 24px; width: 100%; background-color: black; position: relative; left: -10px; top: -10px;">
+                            <span class="close"> &times; </span>
+                        </div>
+                        <!--the main form-->
+                        <form id="mForm">
+                            <span>*</span> <span style="text-decoration: none; font-size: 14px; color: black; font-weight: normal"> Indicates a required field</span> <br /> <br />
+                            <span>*</span>Email: <BR> <input type="text" name="email" required>
                             <br />
                             Name: <BR> <input type="text" name="name">
                             <br />
-                            Subject:<BR> <input type="text" name="subject" required>
+                            <span>*</span>Subject:<BR> <input type="text" name="subject" required>
                             <br />
-                            Summary:<br>
-                            <textarea style="width: 100%; height: 200px; max-width: 98%;" required></textarea>
-                            <input style="" type="submit" name="send">
+                            <span>*</span>Summary:<br>
+                            <textarea required></textarea>
+                            <input type="submit" name="send" id="sbmt">
                             <br />
                         </form>
                     </div>
