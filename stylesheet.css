@@ -406,3 +406,15 @@ div {
 #sbmt:hover {
     box-shadow: 1px 2px #888888;
 }
+/*credit for this goes to w3schools*/
+.zoom-anim {
+    animation:zoomanim 0.6s;
+}
+@keyframes zoomanim {
+    from {
+        transform:scale(0)
+    };
+    to {
+        transform:scale(1)
+    };
+}
