@@ -5,6 +5,7 @@ body {
     width: 100%;
     margin: 0px; 
     margin-bottom: 2%;
+    font-family: 'Chakra Petch', sans-serif;
 }
 a {
     text-decoration: none;
@@ -139,6 +140,7 @@ div {
 .content h1 {
     font-size: 32px;
     margin: 0px;
+    margin-bottom: 20px;
     padding-top: 20px;
     color: red;
     font-weight: bold;
@@ -154,6 +156,7 @@ div {
     padding-left: 15px;
     padding-right: 15px;
     font-size: 16px;
+    
 }
 .content img {
     width: 100%;
