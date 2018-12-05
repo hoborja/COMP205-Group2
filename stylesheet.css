@@ -200,7 +200,7 @@ div {
     border: 1px solid grey;
 }
 .sysreq th {
-    color: red;
+    color: white;
     border: 1px solid grey;
 }
 .sysreq td {
@@ -327,12 +327,11 @@ div {
     margin: auto;
 }
 .faqs li {
-    color: orange;
-    text-align: left;
-    margin-left: 25%;
+    color: white;
+    text-align: center;
 }
 .faqs a {
-    color: white;
+    color: orange;
 }
 .faqs a:hover {
     text-decoration: underline;
