@@ -345,11 +345,18 @@ div {
     background-color: white;
     margin: auto;
 }
+.faq-content img {
+    border: 2px solid rgb(109, 109, 109);
+    box-shadow: -5px 5px;
+}
 .general {
     width: 95%;
     padding: 20px 0 20px 0;
     background-color: rgba(0, 0, 0, 0.5);
     margin: auto;
+}
+#btn:hover {
+    cursor: pointer;
 }
 .form {
     display: none;
