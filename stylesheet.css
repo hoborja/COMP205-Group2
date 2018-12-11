@@ -420,6 +420,12 @@ div {
     background-color: rgba(255, 0, 0, 0.9);
     font-weight: bolder;
 }
+#frmReqText {
+    text-decoration: none; 
+    font-size: 14px; 
+    color: black; 
+    font-weight: normal;
+}
 #sbmt:hover {
     box-shadow: 1px 2px #888888;
 }
