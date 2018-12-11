@@ -81,10 +81,9 @@
                 </div>
                 <div class="form" id="form">
                     <div class="form-content zoom-anim">
-                        <div style="height: 24px; width: 100%; background-color: black; position: relative; left: -10px; top: -10px;">
+                        <div id="close_div">
                             <span class="close"> &times; </span>
                         </div>
-                        <!--the main form-->
                         <form id="mForm" action="https://formspree.io/nathanbdrew1988@gmail.com" method="POST">
                             <span>*</span> <span style="text-decoration: none; font-size: 14px; color: black; font-weight: normal"> Indicates a required field</span> <br /> <br />
                             <span>*</span>Email: <BR> <input type="text" name="email" required>
@@ -103,12 +102,8 @@
             </div>
             <!--footer-->
             <div class="footer">
-                <!--button to go to top of page-->
                 <button onclick="goToTop()" id="topbtn" title="Go to top">Top</button>
-                <script src="scripts.js">
-                    //external .js file
-                    //handles button functions
-                </script>
+                <script src="scripts.js"></script>
                 <script>
                     var frm = document.getElementById("form");
                     var btn = document.getElementById("btn");
@@ -130,12 +125,3 @@
         </section>
     </body>
 </html>
-
-<!--
-    page content:
-        1.navbar
-        2.maybe have a forum to post stuff?
-        3.FAQ 
-        4.general support stuff
-        5.top of page button if needed
--->

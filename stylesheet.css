@@ -391,6 +391,14 @@ div {
     height: 200px; 
     max-width: 98%;
 }
+#close_div {
+    height: 24px; 
+    width: 100%; 
+    background-color: black; 
+    position: relative; 
+    left: -10px; 
+    top: -10px;
+}
 /* The Close Button */
 .close {
     width: 24px;
@@ -402,7 +410,7 @@ div {
     font-weight: bold;
     background-color: red;
     position: relative;
-    right: -20px;
+    right: -20px; 
 }
 
 .close:hover, .close:focus {
